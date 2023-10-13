@@ -2,39 +2,31 @@
 title: What does it mean to be a Software Engineer?
 author: seg
 date: 2023-09-27 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [Junior]
+categories: [Software Engineering, Junior]
+tags: [Technical Skills, Infrastructure Skills, Soft Skills]
 ---
 
 Software Engineer, it's about engineering, so you need to have a logical thinking mind, but not only.
 This kind of job requires contacts with other people, thus the importance of soft skills.
 
 You need to talk to people, you need to manage your tasks, you have to know how to solve the things which you are 
-assigned. So you have to have this mind which can solve many different problems.
+assigned to you. So you have to have this mind which can solve many different problems.
 
 You should also be kind of a creative person because there are a lot of changes when you are working as 
-a software engineering developer. You have to be creative in what you are doing and you have to like it, if you want to have a happy life. 
-I think you need to choose a profession that is enjoyable for you as a person.
+a software engineering developer. You have to be creative in what you are doing and you have to like it, if you want to have a happy life.
 
-It's worth to mention that it's not always easy to know from the start `who you want to be`.
+It's worth to mention that it's not always easy to know from the start `Who you want to be?`.
+I think you need to choose a profession that is enjoyable for you as a person.
 
 Personally, before I have become a software engineer, I worked in a lot of other places. So I think that anybody 
 who is thinking about this profession should not worry much. 
 
 Follow your feelings and jump into it, because there is a lot of things to learn, understand and know, 
-it takes time to get there and to have that feeling of, `oh, I know how to do this.`
+it takes time to get there and to have that feeling of `oh, I know how to do this!` it requires experience.
 
-#### Benefits of past experiences
-Talking about past experiences, previous experience do not need to be strictly related to software engineering.
+Talking about experiences, past experience do not need to be strictly be related to software engineering.
 
-I know we're talking about software engineering, and we don't need to talk too much about the past experience, 
-but mainly we want to focus on: 
-- What activities did we do?
-- What did we get from those experiences?
-- How did those activities helped us become better software engineers?
-
-Even though past experiences are not strictly related to software engineering, the knowledge accumulated during 
-these experiences could be used to enhance your software engineers growth.
+The knowledge accumulated during these experiences could be used to enhance your software engineers growth.
 
 Find below passages from the life of our colleagues regarding 
 skills they've gained in time, which they are using today in their current profession as software engineers.
@@ -60,21 +52,22 @@ This is a similarity which kind forces me think about the software as a whole: `
 
 <i>Nothing is separated in a complicated software and the same can be said for the natural environment, which we are living in."
 
-> The software we build is a reflection of the teams and corporations that build that software. 
-{: .prompt-tip }
-
-<i>"Since when I was little, I had a passion or interest for technology, when I say technology is not just software, 
-it's also hardware. I was always like fixing and breaking stuff, most of the time breaking and then fixing it by myself.
+<i>"Since when I was little, I had a passion or interest for technology, initially hardware. 
+I was always like fixing and breaking things, most of the time breaking and then fixing it by myself.
 That's the best way to learn in my opinion.
 
-<i>My first experience with software engineering was actually in high school. We had this session or let's a class actually, 
-was for learning a very old programming language, which I'm not recalling the name right now.
+<i>I've started working from a young age basically when I was 15. I was selling goods, this gave me that possibility to interact with different people and
+it provided me with that window of how to interact with others and understanding `How they behave?` and `What their goals are?`
+This experience it gave me that level of emotional intelligence that it's very useful and helpful in software engineering collaborative efforts.
+
+<i>My first experience with software was in high school. We had this session or let's a class actually, 
+that was for learning a very old programming language, which I'm not recalling the name right now.
 
 <i>During the lesson time, I was approaching the teacher like, okay, you're dictating us how these functions 
-are working or how these loops are being done and so on. But how can I touch this stuff? I wanted to build something with it!
+are working or how these loops are being done and so on, but `How can I touch this stuff? I wanted to build something with it!`
 She gave me some directions and the first thing that I built was basically a program that allowed packaging software products for windows.
 
-<i>I don't know, it gave me a new perspective, I really liked and enjoyed the experience. 
+<i>The experience, it gave me a new perspective, I really liked and enjoyed it. 
 That's when I decided that, okay, I want to learn this, I want to learn how to build stuff. I want to go into the software world, not just hardware.
 
 <i>I decided that on my university path, I'm going to pick something related to technology itself.
@@ -85,29 +78,20 @@ The only thing that I was learning at the time was physics and mathematics and e
 But still with my grades at the time, I managed to move to Geoinformatics, which allowed me to follow the softer side 
 of it and understand some of the concepts we needed to learn.
 
-<i>School is good for understanding theory, but I didn't wait for school to actually touch and solve problems.
-Since high school is started working with different types of projects, 
+<i>School is good for understanding theory, but I didn't wait for school to actually start solving problems.
+Since high school I started working with different types of projects. 
 
-<i>My next adventure was building software for bars (points of sales), initially started was with C, later C++ languages, 
-was quite interesting. I did a terrible job on the first iteration. The software wasn't working that well or it was very ugly.
-The code was unmaintainable, really, really, very bad job, at least it allowed me to understand some of the concepts.
+<i>My next adventure was building software for bars (points of sales), initially started with C, later moved to C++ language.
+I did a terrible job on the first iteration. The software wasn't working that well or the UI was very ugly.
+The code was unmaintainable, really, really, very bad job, but at least it allowed me to understand some of the concepts.
 
 <i>It allowed me to understand how things are interacting, especially that was the first time that I needed to work with a database.
-I understood what a database is how store and read stuff. I didn't have the full concept of what SQL was at the time, 
-I learned that later on in the game, but still, just with some will and desire, I managed.
+I understood what a database was how stored and read data. I didn't have the full concept of what SQL was at the time, 
+I learned that later on in the game, but still, just with some will and desire, I managed to build something.
 
 <i>Thanks to past experiences I'm at the point that I'm not scared of whatever programming language I need to use to solve
-a given problem. I'm not an expert in some of those languages and I definitely prefer Java in my case.
-
-<i>That was a brief summary of my experience with software, however in general I've started working from a young age basically 
-when I was 15. I was selling stuff at the beginning, which gave me that possibility to interact with different people and
-it provided me with that window of how to interact with others and understanding `How they behave?` and `What their goals are?`
-
-<i>It gives you that emotional intelligence that you need, that it's very useful and helpful in software engineering.
+a given problem. I'm not an expert in some of those languages and I definitely prefer Java in my case, but i can easily take on any kind of projects.
 "
-
-> Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-{: .prompt-tip }
 
 Being a software engineer is not just about technical expertise. 
 It's a journey that can start from early experiences, and continue through various paths. 
@@ -115,36 +99,90 @@ It's a journey that can start from early experiences, and continue through vario
 Every individual's journey into software engineering is unique, and past experiences, 
 even those unrelated to software engineering, can shape one's perspective and approach to the profession.
 
->  A software engineer is a person that uses a set of skills (technical, infrastructure and soft) to solve different types of problems.
-{: .prompt-tip }
+Based on the Software Engineering knowledge the individual accumulates the expertise can be categorized as below:
+
+Junior Level
+: Somebody that has just started exploring software engineering.
+
+Intermediate Level
+: Somebody that has a couple of years of experience in software engineering. They know some set of skills from technical, infrastructure and soft side.
+
+Senior Level
+: Somebody that would be considered a tenured software engineer that has spent probably 5+ years in the industry and has a couple of different projects under the belt.
+
+Lead Level
+: Somebody that is able to potentially understand probably 90% of the items categorized as technical skills, has a solid knowledge of the infrastructure skills and is very good at soft skills with abilities to manage and coordinate different team members.
+
+Expert Level
+: Somebody that mastered the entire tree of software engineering knowledge with regard to technical, infrastructure and soft skills.
+
 
 ## Technical Skills
-Programming Paradigms
-Imperative
-Declarative
-Object Oriented
-Data Structure and Algorithms
-Arrays
-Lists
-Trees
-Programming Languages
-Java
-Python
-Testing
-Unit Testing
-Integration Testing
-Acceptance Testing
-Frameworks
-Spring
-Django
-Development Methodologies
-Waterfall
-Scrum
-Kamban
-Development Principles
-KISS
-YAGNI
-DRY
+Refer to specific knowledge and abilities required to design, develop, test, and maintain software applications and systems. 
+The knowledge accumulated by understanding these skills allows a person to understand `How to solve problems with software?`.
+
+Usually software needs to deal with data and specialized knowledge is required for knowing `How to manage data?`.
+The question can be answered by building a good understanding of <b>Data Structure</b> and <b>Algorithms</b>.
+
+Let's imagine we have some type of data that we need to manage in our software like a birthday or certain numbers(doing accounting).
+
+We need a way to manage these data during interactions while our software is running.
+We need to store them, quickly search or sort, so we can remove or modify them.
+
+The structures used to store these data represents the <b>Data Structure</b> and the operations needed to modify, search and sort data represents the <b>Algorithms</b>.
+
+Management of data can be achieved by using  different structures like: Arrays, Lists and Trees;
+
+There are way more data structures than the three mentioned above. However, this is only the beginning stage and
+for simplicity we will start reference only some of the areas that are needed for reaching Junior Level, remaining areas will be expanded in future materials.
+
+The next skill set is <b>Programming Languages</b>. This is the building blocks of the 
+software creation process, and no software could be created without it. Well known programing languages are: Java, Python, C, C#, C++, Rust, Haskell;
+
+The list of programming languages is long and can be used to solve different type of problems. 
+Some languages exist for fun, just to show a concept, in here we will talk mainly about languages which
+can be used to solve different types of real world problems.
+
+As you move into this direction is important to select a programming language and own it.
+You don't need to know all possible languages, it's good to focus on understanding concepts, 
+because you can apply these concepts in different type of languages. 
+
+As an example the concept of loops is the same in all programming languages, the syntax(how it's written)
+will be different but the behavior it's the same, the loop will iterate over a list of elements.
+
+It's important to become an expert on the selected language, because that gives you the ability to be valuable for the market
+and this will speed up your career options.
+
+There are a lot of skills on the technical list, it's really long, and it keeps growing because technology moves ahead.
+
+However, the one provided here is shorter and highly recommended for Juniors:
+
+- Data Structure and Algorithms
+  + Arrays 
+  + Lists 
+  + Trees
+- Programming Languages
+  + Java 
+  + Python
+- Programming Paradigms
+  + Imperative
+  + Declarative
+  + Object Oriented
+- Testing
+  + Unit Testing 
+  + Integration Testing 
+  + Acceptance Testing
+- Frameworks
+  + Spring 
+  + Django
+- Development Methodologies
+  + Waterfall 
+  + Scrum 
+  + Kamban
+- Development Principles 
+  + KISS 
+  + YAGNI 
+  + DRY
 
 ## Infrastructure Skills
 Source Control
@@ -193,3 +231,8 @@ useful questions:
 - Do you feel fulfilled in your job?
 - Do you think that technical knowledge must be mastered from start to finish? Is it even possible?
 ‹#›
+
+## Conclusion
+
+>  A software engineer is a person that uses a set of skills (technical, infrastructure and soft) to solve different types of problems.
+{: .prompt-tip }
