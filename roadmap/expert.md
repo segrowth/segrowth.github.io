@@ -1,0 +1,276 @@
+---
+markmap:
+  colorFreezeLevel: 3
+  initialExpandLevel: 1
+---
+
+# Software Engineering
+
+## Technical Skills
+- Programming Paradigms
+    - Imperative
+    - Declarative
+    - Object Oriented
+    - Procedural
+    - Functional 
+
+- Data Structure and Algorithms
+    - Arrays
+    - Lists
+    - Trees
+    - Hashtables
+    - Stacks
+    - Queues
+    - Heaps
+    - Sort
+    - Search
+    - Recursion
+
+- Programming Languages ( syntax and best practices)
+    - Java
+    - JavaScript
+        - TypeScript
+        - NodeJS
+    - Python
+    - Rust
+    - C++
+    - C#
+    - C
+
+- Testing
+    - Unit Testing
+    - Integration Testing
+    - API Testing
+    - Load Testing
+    - Performance Testing
+    - Stress Testing
+    - End-to-End Testing
+    - Acceptance Testing
+    - Installation Testing
+    - Upgrade Testing
+    - Mutation Testing
+    - Smoke Testing
+    - Gray-box Testing
+    - Negative Testing
+    - Regression Testing
+    - Security Testing
+    - Exploratory Testing
+    - Sanity Testing
+
+- Frameworks
+    - Spring
+    - React
+    - Angular
+    - Primefaces
+
+- Development Methodologies
+    - Waterfall
+    - Scrum
+    - Kanban
+
+- Development Principles
+    - SOLID
+    - KISS
+    - YAGNI
+    - DRY
+    - TDD
+    - DDD
+    - BDD
+
+- Software Architecture Styles
+    - Monolitic
+    - SOA
+    - Microservices
+    - Serverless
+
+- Design Patterns
+    - [Implementation patterns](https://refactoring.guru/design-patterns/catalog)
+        - [Creational](https://refactoring.guru/design-patterns/creational-patterns)
+            - Factory Method
+            - Abstract Factory
+            - Builder
+            - Prototype
+            - Singleton
+        - [Structural](https://refactoring.guru/design-patterns/structural-patterns)
+            - Adapter
+            - Bridge
+            - Composite
+            - Decorator
+            - Facade
+            - Flyweight
+            - Proxy
+        - [Behavioral](https://refactoring.guru/design-patterns/behavioral-patterns)
+            - Chain of Responsability
+            - Command
+            - Iterator
+            - Mediator
+            - Memo
+            - Observer
+            - State
+            - Strategy
+            - Template Method
+            - Visitor
+    - Architectural patterns
+        - [Microservices](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=microservices&stick=H4sIAAAAAAAAAG2Rz0oCURTGM6awUZOGKILEodbm_FFztkFBUBEkQW3kzp3rzDj_79x0dNEL9AYRQj1Bi4iepEX7Wsy2nSSkllehVpff_c53vnM4SXErIVzuAAwNkyBIrjCweR8QgrAb8qbLh16DtAFGPHJ100UIm67eT-TPJt__O_vzyfr-Se2wdlF_ZBIxk2FTRacoiGLodwUrZlLs0pgDpdX8UfWiKAnRrhQZVIVWQ5UolaxuUI4Zlk2OyFB8mYIYQTLtWe601Jk6S6KgGv4wLc2yY8XVtKAaM9tsZhQuQrmthIIgctyeDaClegBrk31oh4qgzs7gaDGzSWODKpc9AJB4uPPHaCh2lUZXSrZYwjGzzKZH0UFF1-XmqPhXl4Om45TpRrJhOQ1KDStS_ZhZ41ZPh9coEK_gD99p4AqXPQIdhNHM9Hkud-xpyC6cm6jNQ88l2LPtqethIeOYEHshwi0TovBtcWOOfLzeDj6fb67TvXU3d9-7e3p_yQy-wDc6G-_YMgIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABDNAg)
+            - [Circuit Broker](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=broker+pattern&stick=H4sIAAAAAAAAAG2RzUrDQBSFbYlS0z8MogiWBl3XZpK2tltBQVARLIJuyiSZJmn-J2ObduEL-AYiBX0CFyI-iQv3usjWXbFgW-20oKvh3HPP_e5lEmArDoTLHYgV3SBIIVcYWrwHCUHYCXjD4QO3SToQIx45muEghA1HG8TyZ9Py_8lBPNHYP6kf1i8aj0wsYtJssmgXBQACryeYEZNklyfar7VbP65WBKIQ7oqhTl3FbMoiVSWz55cjhmUTY6XXPIkKECpkNrPcbctzfaZIhax7I1qKZSeOo6p-NWK22fQYDhSpUwsEAXDcngUVU3YhVqf30AkVQZ7fwVYjZpNi_SqXPYAKcXH3T1CvWVWKrpQsUMIRk2FTY7Rf0TSpNW7-9SW_ZdtlepGkm3aTqqYZyl7ErHGrp6PfKBC34I3eGXCFyx7BLsJobvs8lzt2VWQVzg3U4RXXIdi1rFnqYTEjY9ecFd6WNhbIx-vt8PP55jrVX3dy9_27p_eX9PALfgOao6CeNAIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegQIABAZ)
+            - [Event Sourcing](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=event+sourcing&stick=H4sIAAAAAAAAAG2RzUrDQBSFbYlS09ZiEEWwNOi6NtO0td0KCoKKoAi6kclkmqRJJsl0-ufCF_ANRAr6BC5EfBIX7nWRrbuiYFrttKCr4Ztzzz33chNgPQ62zjchRabFMGItCh3Zh4xhSpqyReSmV2cdSLGMiWERjKlFjEEsdzz-_t85iCcudg5P9k7OLh6EWCikxWTBLSgANP1LxQ6FpDg_4qDWbvyoRgEUle5WsWtyFdl1rcipZF8G5VAQxcSQzJqvcgBdxCY9y722NlVnFzloph-lpURxpBBdD6qhsCGmh-EAqZ1aU1GAJG07ENmaB6k-3od3qCja9AyuHgprPDaoSpldiJhHe3-MZs2p8uhKyQElGgoLYmoYHVQMQ20Mi391NWi4bplvpJq2W-dUt7uaHwrL0tJRdI088_J-9E4CF6XMPuxhiqemz0nZA0_HTv7Uwh0ZeYRRz3EmrvvZBdzGhEXXblEUXfh1bnWGvb_cfH08XV-l-iske9e_fXx7Tn99wm9KPouINAIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABC7AQ)
+            - [Command Query Responsibility Segregation (CQRS)](https://www.google.com/search?q=CQRS&cs=1&sxsrf=APwXEdf7vFAsVDKhF4ZbNuUWb03SUJlLzw%3A1684274761309&ei=Sf5jZJa-Eu2MrwTp-5XYBg&ved=0ahUKEwjWhui27Pr-AhVtxosKHel9BWsQ4dUDCA8&uact=5&oq=CQRS&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoICAAQigUQkQI6CwguEIAEEMcBENEDOgcIIxDqAhAnOg8IABCKBRDqAhC0AhBDGAE6BwgjEIoFECc6CggAEIAEEBQQhwJKBAhBGABQAFj_HWDfIWgBcAF4AIABXogBoAOSAQE1mAEAoAEBsAEUwAEB2gEGCAEQARgB&sclient=gws-wiz-serp)
+            - [Event-Driven](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=event-driven+architecture&stick=H4sIAAAAAAAAAG2RzUrDQBDHrUSpaasYRClYGvQcm4-2NldBQVARLIJeyibZJmmSTbJd-3XwBXwDkYI-gQcRn8SDdz3k6q1YsK12G9DT8J__zPxmmKS0lVAudwDWLZtAnVxh4PIBIARi1ORtxDf9OmkDDHmITBtBiG1kDhL5s2n6_87BfLK2f1I9rF7UHplExGTYVMEriJLUDHqiEzEpdmmiQ7XV-HHNgiSLnV25Y1FXd-qaTFXR6YWliGHZ5FhZaqBQIXV0MptZ6ra0WJ0jU6FZwYiWZtmJgwwjrETMNpsZwyVdaatNUZQ4bs8FuqP5ABvTe-iEsqjFd_CMiNmk2LDCrRwAnfi4-6fRUt0KRZeLrlTEEbPMpsfosGyaSmNc_OsrYcPzSvQixXK8OlV1p6MFEbPOrZ2OviEQXwhGcQZc5VaOQBdiGNs-z-WOfQO6wrkN27zuI4J91511PSxkYQsiIhjYHsX4U-HbYnaOfLzeDj-fb67T_Q2Uu-_fPb2_ZIZf4BuHbqSyPgIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABCGAw)
+            - Service Registry
+            - API Gateway
+            - Database per Service
+            - Externalized Configuration
+            - Saga Pattern
+            - Bulkhead Pattern
+            - Backends and Frontends (BFF)
+        - [Client-Server](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=client%E2%80%93server+model&stick=H4sIAAAAAAAAAOMwVGI0i9JLLErOyCxJTS4pLUrMUShILClJLcorVsjMUyjOTyspTyxKVUjNS8_MS00tysxL_8UoHwwTxq7zFxNHvKtfiGdIZPwGFsZXLLxc3Pq5-gaGhsUFVQbZr1i4uTjB_ELLsiyIbLq-oZFBhblRRQZcNjk7LckIzjPJrio0fcXCxcUB4mVYFhjDOYYVySUIM00ry5KQ1GUbwTlJGQVA23i4uMAyeSkphRavWJS5eEGWGyYbl1sWGxgYCgk55SQmZyflJxalwPwDN8HMIAnZDbkpr1hk4NYWWgjxuyUml-QXVWJozLDMsYBbbWaSY2hS9IqFj4sHZHWhWXq6cRZIMVTeuDArN9cU7iPjjOzcNDgvLbsiqeAVi5iQSAAwNnRL8nULgDTCQkEhfp_EytSiVCTXywvJ-uanpObohmWmlisk5-eVFOXn5CB0LWIVTc7JTM0redQwuTi1qAwokwtSf4tNkqHk2bVZfz9v667jmSeeJ7tw3pwtT3fw_v2TCAA13kLfOgIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABDFAw)
+        - [Peer-to-Peer](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=peer-to-peer&stick=H4sIAAAAAAAAAOMwVGIyNIrSSyxKzsgsSU0uKS1KzFEoSCwpSS3KK1bIzFMozk8rKU8sSlVIzUvPzEtNLcrMS__FKB8ME8au8xcTR7yrX4hnSGT8BhbGVyy8XNz6ufoGhobFBVUG2a9YuLk4wfxCy7IsiGy6vqGRQYW5UUUGXDY5Oy3JCM4zya4qNH3FwsXFAeJlWBYYwzmGFcklCDNNK8uSkNRlG8E5SRkFQNt4uLjAMnkpKYUWr1iUuXhBlhsmG5dbFhsYGAoJOeUkJmcn5ScWpcD8AzfBzCAJ2Q25Ka9YZODWFloI8bslJpfkF1ViaMywzLGAW21mkmNoUvSKhY-LB2R1oVl6unEWSDFU3rgwKzfXFO4j44zs3DQ4Ly27IqngFYuYkEgAMDZ0S_J1C4A0wkJBIX6fxMrUolQk18sLyfrmp6Tm6IZlppYrJOfnlRTl5-QgdC1i5SlAMuwWmyRDybNrs_5-3tZdxzNPPE924bw5W57u4P37JxEAnblOFDICAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegQIABBS)
+        - [Model-View-Presenter](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=model%E2%80%93view%E2%80%93presenter&stick=H4sIAAAAAAAAAOMwVGIytIjSSyxKzsgsSU0uKS1KzFEoSCwpSS3KK1bIzFMozk8rKU8sSlVIzUvPzEtNLcrMS__FKB8ME8au8xcTR7yrX4hnSGT8BhbGVyy8XNz6ufoGhobFBVUG2a9YuLk4wfxCy7IsiGy6vqGRQYW5UUUGXDY5Oy3JCM4zya4qNH3FwsXFAeJlWBYYwzmGFcklCDNNK8uSkNRlG8E5SRkFQNt4uLjAMnkpKYUWr1iUuXhBlhsmG5dbFhsYGAoJOeUkJmcn5ScWpcD8AzfBzCAJ2Q25Ka9YZODWFloI8bslJpfkF1ViaMywzLGAW21mkmNoUvSKhY-LB2R1oVl6unEWSDFU3rgwKzfXFO4j44zs3DQ4Ly27IqngFYuYkEgAMDZ0S_J1C4A0wkJBIX6fxMrUolQk18sLyfrmp6Tm6IZlppYrJOfnlRTl5-QgdC1ilcgFyT9qmFwGVAGkCopSi1PzgHK32CQZSp5dm_X387buOp554nmyC-fN2fJ0B-_fP4kATPSoIj4CAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABDOAQ)
+        - [Model-View-Controller](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=model%E2%80%93view%E2%80%93controller&stick=H4sIAAAAAAAAAOMwVGI0jNJLLErOyCxJTS4pLUrMUShILClJLcorVsjMUyjOTyspTyxKVUjNS8_MS00tysxL_8UoHwwTxq7zFxNHvKtfiGdIZPwGFsZXLLxc3Pq5-gaGhsUFVQbZr1i4uTjB_ELLsiyIbLq-oZFBhblRRQZcNjk7LckIzjPJrio0fcXCxcUB4mVYFhjDOYYVySUIM00ry5KQ1GUbwTlJGQVA23i4uMAyeSkphRavWJS5eEGWGyYbl1sWGxgYCgk55SQmZyflJxalwPwDN8HMIAnZDbkpr1hk4NYWWgjxuyUml-QXVWJozLDMsYBbbWaSY2hS9IqFj4sHZHWhWXq6cRZIMVTeuDArN9cU7iPjjOzcNDgvLbsiqeAVi5iQSAAwNnRL8nULgDTCQkEhfp_EytSiVCTXywvJ-uanpObohmWmlisk5-eVFOXn5CB0LWKVzAXJP2qYXAZUAaQQam6xSTKUPLs26-_nbd11PPPE82QXzpuz5ekO3r9_EgFFReHxPgIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABDgAg)
+        - [Model-View-ViewModel](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=model%E2%80%93view%E2%80%93viewmodel&stick=H4sIAAAAAAAAAOMwVGIyNIvSSyxKzsgsSU0uKS1KzFEoSCwpSS3KK1bIzFMozk8rKU8sSlVIzUvPzEtNLcrMS__FKB8ME8au8xcTR7yrX4hnSGT8BhbGVyy8XNz6ufoGhobFBVUG2a9YuLk4wfxCy7IsiGy6vqGRQYW5UUUGXDY5Oy3JCM4zya4qNH3FwsXFAeJlWBYYwzmGFcklCDNNK8uSkNRlG8E5SRkFQNt4uLjAMnkpKYUWr1iUuXhBlhsmG5dbFhsYGAoJOeUkJmcn5ScWpcD8AzfBzCAJ2Q25Ka9YZODWFloI8bslJpfkF1ViaMywzLGAW21mkmNoUvSKhY-LB2R1oVl6unEWSDFU3rgwKzfXFO4j44zs3DQ4Ly27IqngFYuYkEgAMDZ0S_J1C4A0wkJBIX6fxMrUolQk18sLyfrmp6Tm6IZlppYrJOfnlRTl5-QgdC1ilcgFyT9qmFwGVAGlwEK32CQZSp5dm_X387buOp554nmyC-fN2fJ0B-_fP4kAR3z5nT4CAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABCmAQ)
+        - [Structural](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=structural+pattern&stick=H4sIAAAAAAAAAG2RzUrDQBSFrUSpaWsxiCJYGnRdm0na2mwFBUFFsAi6KZNkmqT5n0x_F76AbyBS0CdwIeKTuHCvi2zdFQu21U4ruhrOnHvudy83DrbmgXy5A7FqmASppIGhzfuQEITdkDddPvRqpAUx4pGrmy5C2HT1fix7Nvn-P9mfj1f3TyqHlYvqAxOLmBSbyDt5AYDQ7wpWxCTYpbEO5Gb929XzQBTau2LboK5q1RSRqoLVDYoRw7LxkTJkX6ICtFUy7VnsNJWZOkukQjH8IS3JsmPH1bSgHDHbbGoEB6rUkkNBABy3Z0PVUjyItck-tENJUGZncLSI2aTYoMylD6BKPNz5EzRku0zRpYINCjhiltnkCB2UdF2qj4p_fCmoO06RbiQZllOjqma1FT9i1rjV0-E1csTL-cN3Clzh0kewgzCamT7LZY49Ddm5cxO1eNVzCfZse5q6X-BCghu_j_i6uDFH3l9uBh9P11fJ3rqbuevdPr49pwaf8AumlR2COAIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABDjAQ)
+        - [Layer](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=layer+(object-oriented+design)&stick=H4sIAAAAAAAAAG2RzUrDQBSFrUSpsVUMoghqg250UZuftrZbQUFQESyCbsokmSZpkplkMvbHhS_gG4gI-gQuRHwSF-51ka07UTCpdlrQ1XDm3HO_e7lpeWVUkU43ANEtm0KdnhHgij6gFBIUijYSQ9ygbUCgCJFpIwiJjcyPVO6o__1_8mM0Xd8-qO3WTur3XCrisvxkwStIshz655ITcZP8RE8H1VbzxzULsiJ1NpWOxVzdaWgKU0XnPChFHM-nE2VVfZUJuaPTQc9St6UN1TkKE5rlx7QMz_ccZBhBJeJW-WwCl3W1XQ0lSRaELRfojoYBMfr7sA5lSRuewTMibpFhg4owvQN0ikn3T9CquhWGLhdduUgiborPJOigbJpqMyn-9dWg6XkltpFqOV6DqYbT0fyImxNmD-Nr5CnO-_E7AM4I03ugCwkcmj4nLO1jA7r5Yxu2RR0jSrDrDlJ3Y8tukhHXsNaMb5nHxIaIxi0MGNomWn8ZXxihb89XX--PlxeZm3m0dHtz_fD6lP36BN-6Ymz6RAIAAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABD4AQ)
+        - [Pipeline](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=pipeline+(unix)&stick=H4sIAAAAAAAAAOMwVGI0idJLLErOyCxJTS4pLUrMUShILClJLcorVsjMUyjOTyspTyxKVUjNS8_MS00tysxL_8UoHwwTxq7zFxNHvKtfiGdIZPwGFsZXLLxc3Pq5-gaGhsUFVQbZr1i4uTjB_ELLsiyIbLq-oZFBhblRRQZcNjk7LckIzjPJrio0fcXCxcUB4mVYFhjDOYYVySUIM00ry5KQ1GUbwTlJGQVA23i4uMAyeSkphRavWJS5eEGWGyYbl1sWGxgYCgk55SQmZyflJxalwPwDN8HMIAnZDbkpr1hk4NYWWgjxuyUml-QXVWJozLDMsYBbbWaSY2hS9IqFj4sHZHWhWXq6cRZIMVTeuDArN9cU7iPjjOzcNDgvLbsiqeAVi5iQSAAwNnRL8nULgDTCQkEhfp_EytSiVCTXywvJ-uanpObohmWmlisk5-eVFOXn5CB0LWLlL8gsSM0BRrCCRmleZoXmLTZJhpJn12b9_bytu45nnnie7MJ5c7Y83cH7908iANsUrCU0AgAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegUIABCfAw)
+        - [Blackboard](https://www.google.com/search?cs=1&sxsrf=APwXEdfxz0-Ek0djClGxWdQbwwajMPMIBA:1684274101526&q=blackboard+(design+pattern)&stick=H4sIAAAAAAAAAOMwVGIyNIzSSyxKzsgsSU0uKS1KzFEoSCwpSS3KK1bIzFMozk8rKU8sSlVIzUvPzEtNLcrMS__FKB8ME8au8xcTR7yrX4hnSGT8BhbGVyy8XNz6ufoGhobFBVUG2a9YuLk4wfxCy7IsiGy6vqGRQYW5UUUGXDY5Oy3JCM4zya4qNH3FwsXFAeJlWBYYwzmGFcklCDNNK8uSkNRlG8E5SRkFQNt4uLjAMnkpKYUWr1iUuXhBlhsmG5dbFhsYGAoJOeUkJmcn5ScWpcD8AzfBzCAJ2Q25Ka9YZODWFloI8bslJpfkF1ViaMywzLGAW21mkmNoUvSKhY-LB2R1oVl6unEWSDFU3rgwKzfXFO4j44zs3DQ4Ly27IqngFYuYkEgAMDZ0S_J1C4A0wkJBIX6fxMrUolQk18sLyfrmp6Tm6IZlppYrJOfnlRTl5-QgdC1ilU5CeFojJbU4Mz0PJql5i02SoeTZtVl_P2_rruOZJ54nu3DenC1Pd_D-_ZMIAGULthxBAgAA&sa=X&ved=2ahUKEwiJrpn86fr-AhUmAhAIHdR2C00Q7fAIegQIABA3)
+
+- Database
+    - NO-SQL
+        - MongoDB
+        - DynamoDB
+        - InfluxDB
+    - SQL
+        - PostgresSQL
+        - MySQL
+        - Oracle
+        - MS SQL
+        - Vertica
+
+- APIs
+    - REST API
+    - JSON APIs
+    - GraphQL
+    - SOPA
+    - gRPC
+    - Gateways
+    - OpenAPI
+    - Swagger
+    - HATEOAS
+
+- Authentication
+    - Basci Auth
+    - Digest Auth
+    - JWT
+    - OAuth
+    - SAML
+    - OpenID
+
+- Web Security
+    - CORS
+    - Output Encoding
+
+- Caching Mechanisms
+    - CDN
+    - Redis
+    - Memcached
+    - Client Side
+
+- Message Brokers
+    - Apache Kafka
+    - RabitMQ
+
+- Search Engines
+    - ElasticSearch
+    - Solr
+
+
+## Infrastructure Skills
+
+- Services Model
+    - IaaS
+    - PaaS
+    - SaaS
+
+- Source Control
+    - GIT
+    - SVN
+
+- Build Tools
+    - Ant
+    - Maven
+    - Gradle
+
+- Containerization
+    - Docker
+    - LXC
+    - CRI-0
+
+- Orchestration
+    - Kubernates
+    - k9s
+    - Jenkins
+
+- Cloud Providers
+    - AWS
+    - Azure
+    - GCP
+    - Linode
+
+
+## Soft Skills
+
+- [Self](https://www.mindtools.com/cyoktm6/self-management)
+    - Work Attitude
+        - [Positive](https://inspirezone.tech/aspiring-software-engineers-success/)
+        - [Negative](https://medium.com/swlh/five-damaging-attitudes-in-software-development-71552d1d6e50)
+    - [Work-Life Balance](https://www.mindtools.com/cz4t8kp/work-life-balance)
+    - [Time management](https://www.mindtools.com/c3vl26l/time-management)
+    - [Task management](https://www.wrike.com/blog/task-management-skills-tips/#Why-use-Wrike-for-efficient-task-management)
+    - [Learning](https://www.mindtools.com/c7r7nib/learning-skills?start=11)
+    - [Regulation of emotions (tools)](https://www.betterup.com/blog/emotional-regulation-skills)
+    - [Problem Solving](https://www.mindtools.com/cx4ems0/problem-solving)
+        - [Troubleshooting](https://www.techtarget.com/whatis/definition/troubleshooting)
+        - [Critical Thinking](https://dev.to/pavel_polivka/critical-thinking-for-developers-kod)
+    - [Anger management](https://www.verywellmind.com/anger-management-strategies-4178870)
+    - [Stress management](https://www.mindtools.com/cz7uxb1/stress-management-well-being)
+    - [Decision-Making](https://www.risely.me/decision-making-techniques-that-will-help-you/)
+        - [More techniques](https://www.changeboard.com/article-details/16961/16-different-decision-making-techniques-to-improve-business-outcomes/)
+    - [Creativity](https://www.mindtools.com/cs33nj9/creativity-tools)
+
+- [Team](https://www.mindtools.com/caiprxt/team-management)
+    - [Working with others](https://www.mindtools.com/cpykwnp/working-with-others)
+    - [Life Work Balance](https://www.mindtools.com/cz4t8kp/work-life-balance)
+    - [Communication](https://www.mindtools.com/cawh8bu/communication-tools)
+    - Change Management
+    - Time Management
+    - Task Management
+    - Choaching
+    - Mentoring
+    - Conflict Management
+    - Feedback
+    - Delegation
+    - Empowerment
+    - Performance Management
+    - Meetings
+    - Growth
+    - Decision Making
+    - Talent Management
+    - Information Flow
+    - [Difficult Situations](https://www.mindtools.com/cqsumol/difficult-conversations)
+    - [Negotiation, Persuasion and Influence](https://www.mindtools.com/cgpknl7/negotiation-persuasion-influence)
+
+- [Project](https://www.mindtools.com/ct91phy/project-management)
+    - [Communication](https://www.mindtools.com/cawh8bu/communication-tools)
+    - Change Management
+    - Time Management
+    - Planning
+    - Meetings
+    - Growth
+    - [Knwoledge Management](https://www.mindtools.com/atwkp59/knowledge-management)
+    - [Stakeholder Managment](https://www.mindtools.com/at2o1co/what-is-stakeholder-management)
+
+- [Cutomer](https://www.mindtools.com/c6x76l8/customer-service)
+    - [Communication](https://www.mindtools.com/cawh8bu/communication-tools)
+    - Time management
+    - Meetings
+    - Growth
+    - [Negotiation, Persuasion and Influence](https://www.mindtools.com/cgpknl7/negotiation-persuasion-influence)
