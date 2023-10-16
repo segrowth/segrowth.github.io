@@ -282,33 +282,49 @@ effectively.
 
 There are a lot of skills on the technical list, it's long, and it keeps growing because technology moves ahead.
 
-However, the one provided here is shorter and highly recommended for Juniors:
-- Data Structure and Algorithms
-  + Arrays 
-  + Lists 
-  + Trees
-- Programming Languages
-  + Java 
-  + Python
+However, the one provided here is shorter and highly list recommended for Juniors:
+
 - Programming Paradigms
   + Imperative
   + Declarative
   + Object Oriented
+- Data Structure and Algorithms
+  + Arrays
+  + Lists
+  + Trees
+  + Search
+  + Recursion
+- Programming Languages
+  + Java
+  + Python
 - Testing
-  + Unit Testing 
-  + Integration Testing 
+  + Unit Testing
+  + Integration Testing
   + Acceptance Testing
-- Frameworks
-  + Spring 
-  + Django
 - Development Methodologies
-  + Waterfall 
-  + Scrum 
-  + Kamban
-- Development Principles 
-  + KISS 
-  + YAGNI 
+  + Waterfall
+  + Scrum
+  + Kanban
+- Development Principles
+  + KISS
+  + YAGNI
   + DRY
+- Design Patterns
+  + Implementation patterns
+    * Creational
+    * Structural
+    * Behavioral
+- Database
+  + NO-SQL
+    * MongoDB
+  + SQL
+    * PostgresSQL
+    * MySQL
+- APIs
+  + REST API
+- Authentication
+  + Basci Auth
+  + Digest Auth
 
 The order of the above list defines the order in which someone should start mastering the technical skills.
 
@@ -342,23 +358,19 @@ managing data, building, testing, and ensuring that the software runs effectivel
 
 Having a basic understanding of infrastructure can help when issues arise, as it provides context for problem-solving and collaboration. 
 
-Here is a short list of infrastructure skills highly recommended for Juniors:
+Here is a list of infrastructure skills highly recommended for Juniors:
 - Source Control
   + GIT 
   + SVN
-- Containerization
-  + Docker
+- Build Tools
+  + Maven
 - Orchestration
   + Jenkins
   + Kubernetes
+- Containerization
+  + Docker
 - Cloud Providers
   + AWS
-  + Azure
-  + GCP
-- Service Models
-  + IaaS
-  + PaaS
-  + SaaS
 
 The order of the above list defines the order in which someone should start mastering the infrastructure skills.
 
@@ -444,20 +456,19 @@ structure your life.
 Ultimately, while software engineering offers numerous rewards, it's essential to maintain perspective, 
 prioritize health and well-being, and manage time effectively to thrive in this dynamic field.
 
-Here is a short list of soft skills highly recommended for Juniors:
+Here is a list of soft skills highly recommended for Juniors:
 - Self
   + Work Attitude
-  + Life Work Balance
-  + Time Management
+  + Work-Life Balance
+  + Time management
+  + Task management
+  + Learning
+  + Regulation of emotions (tools)
+  + Problem Solving
+    * Troubleshooting
+    * Critical Thinking
 - Team
-  + Change Management
-  + Performance Management
-  + Conflict Management
-  + Information Flow
-- Project
-  + Planning
-  + Meeting Management
-  + Growth
+  + Working with others
 
 The order of the above list defines the order in which someone should start mastering the infrastructure skills.
 
