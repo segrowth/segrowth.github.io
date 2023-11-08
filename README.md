@@ -1,95 +1,100 @@
-<div align="center">
+# Local Development Setup for Jekyll Blog
 
-  # Chirpy Jekyll Theme
+This guide will help you to set up a local development environment for our Jekyll blog post page using the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy/). 
+The steps will ensure that you can build and run the site on your local machine, regardless of whether you're using macOS or Windows.
 
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+## Prerequisites
 
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
+Before you start, make sure you have the following installed on your system:
+- Ruby (version 2.5.0 or above)
+- RubyGems
+- GCC and Make
+- npm (Node.js package manager)
 
-  [**Live Demo →**][demo]
+### For macOS:
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+1. Install Homebrew (if not already installed):
+   ```sh
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   ```
 
-</div>
+2. Install Ruby:
+   ```sh
+   brew install ruby
+   ```
 
-## Features
+3. Add the brew ruby path to your shell configuration:
+   ```sh
+   echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+   ```
 
-<details>
-  <summary>
-    <i>Click to view features</i>
-  </summary>
-  <p>
+4. Reload your shell configuration:
+   ```sh
+   source ~/.bash_profile
+   ```
+5. Install npm by installing Node.js:
+   ```sh
+   brew install node
+   ```
 
-  - Dark / Light Theme Mode
-  - Localized UI language
-  - Pinned Posts on Home Page
-  - Hierarchical Categories
-  - Trending Tags
-  - Table of Contents
-  - Last Modified Date
-  - Syntax Highlighting
-  - Mathematical Expressions
-  - Mermaid Diagrams & Flowcharts
-  - Dark / Light Mode Images
-  - Embed Videos
-  - Disqus / Utterances / Giscus Comments
-  - Built-in Search
-  - Atom Feeds
-  - Google Analytics
-  - SEO & Performance Optimization
+### For Windows:
 
-  </p>
-</details>
+1. Download and install Ruby+Devkit from [RubyInstaller for Windows](https://rubyinstaller.org/).
 
-## Documentation
+2. Follow the prompts and ensure that the 'Add Ruby executables to your PATH' option is checked.
 
-To explore usage, development, and upgrade guide of the project, please refer to the [**Wiki**][wiki].
+3. Download and install Node.js (which includes npm) from the [official Node.js website](https://nodejs.org/).
 
-## Contributing
+## Installation
 
-Reporting bugs and helping to improve source code or documentation is always welcome.
-For more information, see the "[Contributing Guidelines][contribute-guide]".
+1. Install Jekyll and Bundler:
+   ```sh
+   gem install jekyll bundler
+   ```
 
-## Credits
+2. Clone the blog repository:
+   ```sh
+   git clone git@github.com:segrowth/segrowth.github.io.git
+   cd segrowth.github.io
+   ```
 
-This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
-[Bootstrap][bootstrap], [Font Awesome][icons] and some other [wonderful tools][lib].
-The avatar and favicon design come from [Clipart Max][image].
+3. Install dependencies from the Gemfile:
+   ```sh
+   bundle install
+   ```
+4. Build assets
+   ```sh
+   npm i && npm run build
+   ```
 
-Many thanks to the [contributors][contributors] who participated in the development
-and to the folks who reported bugs or shared ideas.
+## Running the Blog Locally
 
-Last but not least, thanks to [JetBrains][jetbrains] for providing the _Open Source License_.
+1. Build the site:
+   ```sh
+   bundle exec jekyll build
+   ```
 
-## Sponsoring
+2. Run server locally (Optional)
+   ```sh
+   bundle exec jekyll serve --watch
+   ```
 
-If you'd like to sponsor this project, the following options are available.
+3. Run server locally including drafts (Optional)
+   ```sh
+   bundle exec jekyll serve --watch --drafts
+   ```
 
-[![Ko-fi](https://img.shields.io/badge/Support_Me_on_Ko--fi-ff5e5b?logo=ko-fi&logoColor=white)][ko-fi]&nbsp;
-[![Wechat Pay](https://img.shields.io/badge/Tip_Me_on_WeChat-brightgreen?logo=wechat&logoColor=white)][donation]&nbsp;
-[![Alipay](https://img.shields.io/badge/Tip_Me_on_Alipay-blue?logo=alipay&logoColor=white)][donation]
+4. Now browse to [http://localhost:4000](http://localhost:4000) to view the site.
 
-## License
+## Troubleshooting
 
-This work is published under [MIT License][license].
+- If you encounter any issues with bundle installation, you may need to install the necessary dependencies manually or run `bundle update` before `bundle install`.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[jekyllrb]: https://jekyllrb.com/
-[bootstrap]: https://getbootstrap.com/
-[icons]: https://fontawesome.com/
-[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[ko-fi]: https://ko-fi.com/coteschung/
-[donation]: https://sponsor.cotes.page/
+- On macOS, if you face permissions issues, you may need to use `sudo` for installing gems.
+
+- On Windows, if Jekyll fails to run, make sure to check the execution policy permissions and that Ruby is correctly added to PATH.
+
+## Additional Resources
+
+- [Jekyll documentation](https://jekyllrb.com/docs/)
+- [Chirpy theme documentation](https://github.com/cotes2020/jekyll-theme-chirpy/wiki)
