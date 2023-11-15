@@ -1,7 +1,7 @@
 ---
 title: What does it mean to be a Software Engineer?
 author: seg
-date: 2023-09-27 00:34:00 +0800
+date: 2023-11-14 08:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Infrastructure Skills, Soft Skills]
 image:
@@ -489,4 +489,4 @@ It means being a strategic thinker, a team player, a lifelong learner, and, abov
 
 In case you prefer to see a live discussion on the topic see conversation between our colleagues:
 
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+{% include embed/youtube.html id='QlQufiDcKSo' %}
