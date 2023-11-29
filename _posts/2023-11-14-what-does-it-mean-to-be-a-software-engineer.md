@@ -1,6 +1,6 @@
 ---
 title: What does it mean to be a Software Engineer?
-author: seg
+author: kjodlows # TBU: authors: [imyrta, kjodlows]
 date: 2023-11-14 08:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Infrastructure Skills, Soft Skills]
