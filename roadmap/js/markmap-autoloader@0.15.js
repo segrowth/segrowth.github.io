@@ -36,7 +36,6 @@ function _extends() {
 
 const defaultProviders = {
   jsdelivr: path => `./js/${path}`,
-  //unpkg: path => `https://unpkg.com/${path}`
 };
 class UrlBuilder {
   constructor() {
