@@ -5,7 +5,7 @@ date: 2024-01-18 08:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Infrastructure Skills, Soft Skills]
 image:
-  path: /commons/what-does-it-mean-to-be-a-software-engineer.png
+  path: /commons/post-img.png
 ---
 
 ## Preface
