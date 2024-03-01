@@ -140,7 +140,7 @@ Refer to specific knowledge and abilities required to design, develop, test, and
 systems. The knowledge accumulated by understanding these skills allows a person to understand `How to solve problems
 with software?`.
 
-### Data Structures and Algorythms
+### Data Structures and Algorithms
 Usually software needs to deal with data and specialized knowledge is required for knowing `How to manage data?`.
 The question can be answered by building a good understanding of Data Structure and Algorithms.
 
@@ -341,7 +341,7 @@ However, the one provided here is shorter and highly list recommended for Junior
 - APIs
   + REST API
 - Authentication
-  + Basci Auth
+  + Basic Auth
   + Digest Auth
 
 The order of the above list defines the order in which someone should start mastering the technical skills.
