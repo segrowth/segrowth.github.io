@@ -1,7 +1,7 @@
 ---
 title: Imperative Programming
 authors: [imyrta, kjodlows]
-date: 2024-03-04 08:00:00 +0100
+date: 2024-03-05 00:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Imperative Programming]
 image:
