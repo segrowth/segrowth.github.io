@@ -1,9 +1,9 @@
 ---
-title: Programming paradigms - Part 1&#58; Imperative
+title: Imperative Programming
 authors: [imyrta, kjodlows]
-date: 2024-01-01 08:00:00 +0100
+date: 2024-03-04 08:00:00 +0100
 categories: [Software Engineering, Junior]
-tags: [Technical Skills]
+tags: [Technical Skills, Programming Paradigms, Imperative Programming]
 image:
   path:  /commons/post-img.png
 ---
@@ -14,24 +14,18 @@ our code.
 
 ## Programming Paradigms
 
-Programming paradigms are the fundamental approaches guiding how we design and organize computer programs. We'll focus
-on the main ones: imperative programming, declarative programming, and some subsets for each of these two.
+Programming paradigms are styles of programming that guide how we design and organize computer programs. 
 
-<b>Imperative programming</b> is like giving direct instructions to the computer, detailing each step needed to
-accomplish a task. It's procedural and explicit. In contrast, <b>declarative programming</b> focuses on describing the
-desired outcome rather than the step-by-step process. It's about stating "what" you want, not "how" to get there.
+We have a variety of paradigm types, but as part of this series of lectures, we will focus on 
+the main ones: Imperative Programming, Declarative Programming, and a couple of subsets for each.
 
-Within these paradigms are subsets like <b>object-oriented programming</b>, which organizes code into reusable objects,
-and <b>functional programming</b>, treating computation as the evaluation of mathematical functions.
+This post specifically targets <b>Imperative Programming</b>, the rest of the paradigms 
+will follow with consecutive blog posts.
 
-Different programming paradigms may offer alternative approaches that can be more suitable for certain types of
-problems. For example, functional programming is often favored for problems involving data transformations and
-concurrency, while declarative programming can be advantageous for expressing complex business logic.
+## Imperative Programming
 
-## Imperative Paradigm
-
-Imperative programming is a style that revolves around defining a sequence of steps for the computer to follow in order
-to solve a specific problem. At its core, it's about instructing the computer on how to perform tasks, step by step.
+Imperative programming is a style that revolves around defining a sequence of steps for the computer to follow to solve 
+a specific problem. At its core, it’s about instructing the computer on how to perform tasks, step by step.
 
 Key to the imperative paradigm is the concept of <b>mutable state</b> and <b> control flow</b>. You define variables to
 hold data, and these variables can be modified throughout the execution of the program. This mutable state allows for
@@ -40,24 +34,24 @@ conditional function calls, and other control flow mechanisms. These structures 
 specifying which steps are executed under which conditions.
 
 The program typically starts with an initial state, and as it continues to execute, this state is modified over time as
-needed to achieve the desired outcome. So, in essence, imperative programming is all about laying out a clear set of
-instructions for the computer to follow, manipulating mutable state as necessary along the way.
+needed to achieve the desired outcome. In essence, imperative programming is all about laying out a clear set of
+instructions for the computer to follow and manipulating mutable states as necessary along the way.
 
 > A variety of programming languages support Imperative Programming, from which some examples worth mentioning are: 
-Java, Python, C, C++, Javascript, Pascal, Go.
+Java, Python, C, C++, Javascript, Pascal, and Go.
 {: .prompt-info }
 
 ## What is unique about this paradigm?
 
-Let's delve deeper into Imperative Paradigm key characteristics. These defining features shape the way we approach
+Let's delve deeper into Imperative Paradigm's key characteristics. These defining features shape the way we approach
 problem-solving and code organization within this paradigm (click an item to unfold its description):
 
 <details>
-<summary><b>State Management</b> - At the heart of imperative programming lies the concept of mutable state.</summary>
+<summary><b>State Management</b> - At the heart of imperative programming lies the concept of a mutable state.</summary>
 <ul>
 At the heart of imperative programming lies the concept of mutable state. This means that the program maintains data
 that can be modified during its execution. Achieving this involves techniques such as variable declaration, assignments,
-and updating variables over time. Mutable state allows for dynamic changes to data as the program progresses, enabling
+and updating variables over time. A mutable state allows for dynamic changes to data as the program progresses, enabling
 it to adapt to varying conditions.
 </ul>
 </details>
@@ -66,7 +60,7 @@ it to adapt to varying conditions.
 <summary><b>Control Flow</b> - When the program specifies the sequence of operations using loops, conditionals, 
 and branching.</summary>
 <ul>
-Control flow mechanisms like for loops, while loops, and if-else statements dictate the order in which instructions are
+Control flow mechanisms like for-loops, while-loops, and if-else statements dictate the order in which instructions are
 executed based on certain conditions. This granular control over execution flow allows programmers to tailor the
 behavior of their programs to suit specific requirements.
 </ul>
@@ -95,7 +89,7 @@ essential for achieving desired program behavior.
 <summary><b>Iteration</b> - A subset of control flow, involves repeating a certain task multiple times within the
 program.</summary>
 <ul>
-Imperative programming provides mechanisms for iteration, such as loops (e.g., while loops, for loops), enabling the
+Imperative programming provides mechanisms for iteration, such as loops (e.g., while-loops, for-loops), enabling the
 program to perform repetitive tasks efficiently. Iteration is essential for processing collections of data, executing
 batch operations, and implementing iterative algorithms.
 </ul>
@@ -114,22 +108,22 @@ encapsulate logic into self-contained units.
 <summary><b>Control Abstraction</b> - Encapsulating logic into specific objects or modules, such as functions or
 procedures.</summary>
 <ul>
-By abstracting control structures, developers can simplify the overall design of the program and improve readability and
-maintainability. This higher-level abstraction of control logic enhances the clarity and conciseness of the code, making
+By abstracting control structures, developers can simplify the program's overall design and improve readability 
+and maintainability. This higher-level abstraction of control logic enhances the clarity and conciseness of the code, making
 it easier to understand and modify.
 </ul>
 </details>
  
 <details>
 <summary><b>Data Structures</b> - Data is structured in a way that facilitates effective manipulation of variables and
-state.</summary>
+states.</summary>
 <ul>
 Various data structures provided by programming languages, such as arrays, lists, queues, stacks,
 and trees, enable efficient storage and retrieval of data. These data structures play a crucial role in problem-solving
 by providing organized and optimized storage solutions tailored to specific requirements.
 </ul>
 <ul>
-It's worth noting that data structures encapsulate state and offer methods or functions to access and modify that state.
+It's worth noting that data structures encapsulate the state and offer methods or functions to access and modify that state.
 They serve as fundamental building blocks for implementing algorithms and solving a wide range of computational
 problems.
 </ul>
@@ -140,8 +134,8 @@ problems.
 time.</summary>
 <ul>
 This characteristic is fundamental to imperative programming and is achieved through the use of variables and data
-structures that can be updated while the program is executing. However, the reliance on mutable state can introduce
-complexity and potential pitfalls, as changes to shared state can impact the behavior of the program in unexpected ways.
+structures that can be updated while the program is executing. However, the reliance on a mutable state can introduce
+complexity and potential pitfalls, as changes to the shared state can impact the behavior of the program in unexpected ways.
 </ul>
 </details>
 
@@ -158,9 +152,9 @@ encapsulation of code into cohesive units of functionality.
 <details>
 <summary><b>Side Effects</b> - Occurs when the execution of a program modifies external state or resources. </summary>
 <ul>
-Imperative programming is prone to side effects. This dependency on external state and resources can lead to issues such
-as race conditions, where multiple parts of the program attempt to modify shared state concurrently, resulting in
-unpredictable behavior. 
+Imperative programming is prone to side effects. This dependency on external states and resources can lead to issues 
+such as race conditions, where multiple parts of the program attempt to modify shared states concurrently, 
+resulting in unpredictable behavior. 
 </ul>
 <ul>
 Side effects are considered one of the main drawbacks of imperative programming, as they can introduce complexity and
@@ -211,29 +205,32 @@ constant throughout the program execution:
 int num = 5;
 ```
 
-<b>Mutable state</b> is a crucial aspect of imperative programming, allowing variables to be modified during program
+The <b>mutable state</b> is a crucial aspect of imperative programming, allowing variables to be modified during program
 execution. In our example, the `result` variable undergoes mutation within a for loop:
 ```java
-result *= i;    // result value multiplies by `i` and assigns the result with `*=` operator
+// result value multiplies and assigns the result with `*=` operator by `i` 
+result *= i; 
 ```
 
 ### Controlling the flow
 
-As the loop iterates, the state of `result` is updated by multiplying its current value with the value of `i`, which
-serves as another variable holding a different state. <b>Control flow</b> mechanisms dictate the order in which 
-instructions are executed within the program. In our example, we employ a "for" loop to control the flow of execution.
-The loop iterates over a certain operation until a specified condition is met. Here, the loop iterates as long as the
-value of `i` is less than a variable `n` value:
+As the loop iterates, the state of the `result` is updated by multiplying its current value with the value of `i`, which
+serves as another variable holding a different state. <b>Control flow</b> mechanisms dictate the order in which instructions are executed within the program. In our example, 
+we employ a for-loop to control the flow of execution. The loop iterates over a certain operation until a specified condition is met. Here, the loop iterates as long as the
+value of `i` is less than the variable `n` value:
 
 ```java
-for (int i = 1; i <= n; i++) {  // loops until the `i <= n` condition is met 
+// loops until the `i <= n` condition is met 
+for (int i = 1; i <= n; i++) {
     ...
 }
 ```
 Which is represented by the input value passed to the function:
 
 ```java
-// `factorial` function called, passing the `num` value..
+// integer variable named `num`, with value `5`..
+int num = 5;
+// ..`factorial` function called, passing the `num` value..
 int fact = factorial(num);
 // ..which in the function definition is an argument named `n`
 public static int factorial(int n) {
@@ -242,38 +239,39 @@ public static int factorial(int n) {
 ```
 This control structure ensures that the factorial calculation is performed iteratively, adhering to the defined
 conditions. The program accepts an <b>argument</b> `n`, representing the number for which the factorial is to be
-calculated. In our example, `n` is initialized with the value five (value of `num`). So the "for" loop iterates five
+calculated. In our example, `n` is initialized with the value 5 (value of `num`). So the for-loop iterates 5
 times, incrementing the value of `n` with each iteration until the condition is met. This iterative process demonstrates
-the concept of <b>iteration</b>, a subset of control flow, where a task is repeated multiple times within the program.
+the concept of <b>iteration</b>, a subset of <b>control flow</b>, where a task is repeated multiple times within the program.
 
 ### Abstracting program units
 
 In imperative programming, <b>procedural abstraction</b> involves decomposing and encapsulating logic into functions or
-subroutines. In the example, we observe two main functions: the "main" function, which serves as the entry point of the
-program:
+subroutines. In the example, we observe two functions: 
+
+1. The `main` function, which serves as the entry point of the program:
 ```java
 public static void main(String[] args) {
     // in Java, everything starts here
 }
 ```
 
-And the "factorial" function, which <b>encapsulates</b> the logic for calculating the factorial:
+2. The `factorial` function, which <b>encapsulates</b> the logic for calculating the factorial:
 ```java
 public static int factorial(int n) {
-    // logic counting the factorial, returning result (an int, what is defined in the function definition above)
+    // logic for counting the factorial of `n`
     return result;
 }
 ```
 
-The "factorial" function takes an argument representing the number for which the factorial is to be calculated, and
-returns the computed value. By encapsulating the factorial logic within a separate function, we achieve a higher level
+The `factorial` function takes an argument that represents the number for which the factorial is to be calculated 
+and returns the computed value. By encapsulating the factorial logic within a separate function, we achieve a higher level
 of abstraction and promote code readability and maintainability.
 
 <b>Control abstraction</b> refers to the encapsulation of control logic within functions or procedures. In our example,
-the "factorial" function controls the flow of execution by iterating over the factorial calculation until a specific
+the `factorial` function controls the flow of execution by iterating over the factorial calculation until a specific
 condition is met. The `result` variable, which represents the state being modified over time, is under the control of
-the "factorial" function, which dictates how the result is updated and manipulated. By abstracting control logic into
-functions, we enhance code organization and clarity, making it easier to understand and manage complex programs.
+the `factorial` function, which dictates how the result is updated and manipulated. By abstracting control logic into functions, we enhance code organization and clarity, making it easier to understand 
+and manage complex programs.
 
 <b>Modularization</b> involves organizing code into smaller, reusable modules or units. In our example, we leverage
 system functions provided by Java, such as `System.out.println`, to output the result of the factorial calculation to
@@ -318,7 +316,7 @@ throughout program execution, requiring code structure updates for any changes.
 
 ### Sequence and Iteration
 
-The concept of sequence and iteration plays a crucial role in imperative programming. In our example, the "for" loop
+The concept of sequence and iteration plays a crucial role in imperative programming. In our example, the for-loop
 embodies both sequence and iteration, representing a sequence of operations that iterates over a certain code section
 until specific conditions are met, e.g.:
 ```java
@@ -327,7 +325,7 @@ for (int i = 1; i <= n; i++) {  // sequence no 2: is 2 less or equalt to 5? yes.
 }
 ```
 
-The "for" loop controls the flow of execution, ensuring that the factorial
+The for-loop controls the flow of execution, ensuring that the factorial
 calculation is performed iteratively, with each iteration contributing to the final result. Understanding different
 types of iterations and sequences allows developers to design efficient and structured programs tailored to specific
 requirements.
@@ -348,12 +346,12 @@ showcasing the role of data structures in real-world programming scenarios.
 
 ### Program Execution Flow
 
-The program execution flow begins at the "main" function, which serves as the entry point of the program. From there,
-the program progresses through the defined sequence of operations, manipulating state and controlling flow until the
+The program execution flow begins at the `main` function, which serves as the entry point of the program. From there,
+the program progresses through the defined sequence of operations, manipulating the state and controlling flow until the
 desired outcome is achieved. Understanding the flow of program execution is essential for developing effective and
 efficient software solutions within the imperative paradigm.
 
-Through interactive execution of the program, we observed the flexibility and responsiveness of imperative programming.
+Through the interactive execution of the program, we observed the flexibility and responsiveness of imperative programming.
 By changing the input arguments, we generated different factorial values, demonstrating the dynamic nature of program
 behavior. The output provided valuable insights into the correctness and effectiveness of our factorial calculation
 logic.
@@ -362,17 +360,17 @@ logic.
 
 While our example focused on a simple factorial calculation, imperative programming encompasses a vast array of concepts
 and techniques. Moving forward, we may encounter more complex scenarios involving shared states, multithreading, and
-advanced data structures. These challenges present opportunities for further exploration and mastery of imperative
+advanced data structures. These challenges present opportunities for further exploration and mastery of the imperative
 programming principles.
 
-## Where it's been used?
+## What problems can be solved?
 
 As we dive deeper into the realm of imperative programming, it's essential to understand the diverse range of problems
 that can be effectively solved using this paradigm. Let's explore some key problem domains where imperative programming
 shines (click an item to unfold its description):
 
 <details>
-<summary><b>Algorithmic Problems</b> - Efficient and flexible problem solving.</summary>
+<summary><b>Algorithmic Problems</b> - Efficient and flexible problem-solving.</summary>
 <ul>
 One of the primary strengths of imperative programming lies in its ability to tackle algorithmic problems efficiently.
 Tasks such as sorting, searching algorithms, and mathematical computations are well-suited for imperative programming
@@ -482,12 +480,9 @@ strengths and applications of this paradigm.
 
 ## Live discussion
 
-In case you prefer to see a live discussion on the topic see conversation between our colleagues:
+In case you prefer to see a live discussion on the topic see the conversation between our colleagues:
 
-> <b>TODO</b> - Replace the embed link when the video is uploaded.
-{: .prompt-warning }
-
-{% include embed/youtube.html id='QlQufiDcKSo' %}
+{% include embed/youtube.html id='1qZj0VozJKY' %}
 
 ## Stay tuned!
 
