@@ -5,7 +5,7 @@ date: 2024-03-05 00:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Imperative Programming]
 image:
-  path:  /commons/post-img.png
+  path:  /commons/imperative-programming.png
 ---
 
 > In the upcoming posts, starting from this one, we'll dive into the essence of different programming styles that shape
