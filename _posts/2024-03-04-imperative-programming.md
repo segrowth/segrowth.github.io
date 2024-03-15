@@ -482,7 +482,7 @@ strengths and applications of this paradigm.
 
 In case you prefer to see a live discussion on the topic see the conversation between our colleagues:
 
-{% include embed/youtube.html id='1qZj0VozJKY' %}
+{% include embed/youtube.html id='_frrUebkd4c' %}
 
 ## Stay tuned!
 
