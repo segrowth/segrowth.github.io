@@ -520,4 +520,4 @@ It means being a strategic thinker, a team player, a lifelong learner, and, abov
 
 In case you prefer to see a live discussion on the topic see conversation between our colleagues:
 
-{% include embed/youtube.html id='j9lmmZHb7w4' %}
+{% include embed/youtube.html id='PSERG8CfNKU' %}
