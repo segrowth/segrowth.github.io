@@ -35,7 +35,7 @@ function _extends() {
 }
 
 const defaultProviders = {
-  jsdelivr: path => `./js/${path}`,
+  jsdelivr: path => `/assets/js/markmap/${path}`,
 };
 class UrlBuilder {
   constructor() {
