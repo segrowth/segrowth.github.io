@@ -16,4 +16,16 @@
     font-size: 0.7em;
     font-family: Oswald, sans-serif;
   }
+
+  &.active {
+    color: var(--tag-active-text-color);
+    background-color: var(--tag-active-bg-color);
+    border-color: var(--tag-border-color);
+  }
+
+  &.roadmap:hover {
+     color: var(--tag-hover-text-color) !important;
+     background-color: var(--tag-hover);
+     border-color: var(--tag-hover);
+  }
 }
