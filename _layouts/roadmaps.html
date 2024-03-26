@@ -11,12 +11,10 @@ layout: page
     };
 
     function refreshMarkmap(data) {
-        // Select the container element
         var container = document.getElementById('markmap-container');
-        // Clear the container's content
+
         container.innerHTML = '';
 
-        // Create the new structure
         var outerDiv = document.createElement('div');
         outerDiv.className = 'mm';
         outerDiv.className = 'markmap';
@@ -25,44 +23,35 @@ layout: page
         scriptTag.id = 'template';
         scriptTag.type = 'text/template';
 
-        // Append the new elements to the container
         outerDiv.appendChild(scriptTag);
         container.appendChild(outerDiv);
 
-        // Clean up data by removing --start-- and --end-- tags
         data = data.replace(/--start--|--end--/g, '---');
 
-        // Set the content of the script element with the fetched data
         document.getElementById('template').textContent = data;
 
-        // Render the markup
         markmap.autoLoader.renderAll()
     }
 
     function clearActiveStatus() {
-        // Select all hyperlinks with the 'roadmap' class name
         var hyperlinks = document.querySelectorAll('a.roadmap');
 
-        // Loop through the NodeList of hyperlinks
         hyperlinks.forEach(function(hyperlink) {
-            // Remove the 'active' class name from each hyperlink
             hyperlink.classList.remove('active');
         });
     }
 
     function loadRoadmap(event) {
-        // Prevent the default action of the hyperlink
         event.preventDefault();
-        // Clear active status from other links
+
         clearActiveStatus()
-        // Get the clicked element (the hyperlink)
+
         var clickedLink = event.target;
-        // Set clicked link as active
+
         clickedLink.classList.add('active');
-        // Retrieve the id attribute of the hyperlink
+
         var linkId = clickedLink.getAttribute('id');
 
-        // Fetch the content from the file
         fetch(linkId + '.path')
             .then(response => response.text())
             .then(refreshMarkmap)
