@@ -131,6 +131,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  roadmaps:
+    output: false
+    sort_by: order
 
 defaults:
   - scope:
