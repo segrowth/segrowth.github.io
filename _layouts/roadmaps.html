@@ -30,7 +30,7 @@ layout: page
 
         document.getElementById('template').textContent = data;
 
-        markmap.autoLoader.renderAll()
+        markmap.autoLoader.renderAll();
     }
 
     function clearActiveStatus() {
@@ -44,7 +44,7 @@ layout: page
     function loadRoadmap(event) {
         event.preventDefault();
 
-        clearActiveStatus()
+        clearActiveStatus();
 
         var clickedLink = event.target;
 
