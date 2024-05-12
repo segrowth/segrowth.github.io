@@ -1,7 +1,7 @@
 ---
 title: Declarative Programming
 authors: [imyrta, kjodlows]
-date: 2024-04-10 22:00:00 +0100
+date: 2024-05-12 22:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Declarative Programming]
 image:
@@ -18,7 +18,7 @@ This programming style focuses on describing what we want to achieve when we wri
 it. In other words, while using this paradigm, we specify a desired result or outcome, and the programming language
 itself takes care of the implementation details. This approach abstracts away the control flow and mutable states, which
 allows the developer to focus on the domain problem. Instead of defining an explicit flow, the developer works with
-a high-level concepts.
+a high-level concept.
 
 > Similar to Imperative Programming, a variety of programming languages support Declarative Programming. Some examples
 worth mentioning are SQL, HTML & CSS, and Regular Expressions (Regexes).
@@ -49,7 +49,7 @@ a possibility to access and manipulate that data (see Declarative Queries).
 <details>
 <summary><b>Data Dependencies</b> - When programs express relationships and dependencies between entities.</summary>
 <ul>
-Declarative relationships, constraints, and dependencies specified through declarations or expressions.
+Declarative relationships, constraints, and dependencies are specified through declarations or expressions.
 </ul>
 </details>
 
@@ -65,14 +65,14 @@ data streams.
 <details>
 <summary><b>High-level Abstractions</b> - Utilizing high-level abstractions and domain-specific languages (DSLs).</summary>
 <ul>
-Specialized languages or frameworks designed for specific problem domains. An example and in the same time a special 
-case is rexex, a type of language we may call a processor, which can be embedded it into imperative programs, or used in
-browsers whenever we need to extract a string by providing a pattern to match against.
+Specialized languages or frameworks designed for specific problem domains. An example and at the same time a special 
+case is regex, a type of language we may call a rational expression, which can be embedded into imperative programs, 
+and used to extract a string by providing a pattern to match against.
 </ul>
 </details>
  
 <details>
-<summary><b>Declarative Queries</b> - Express queries to retrieve or manipulate data and not specifying how to
+<summary><b>Declarative Queries</b> - Express queries to retrieve or manipulate data and not specify how to 
 achieve the result.</summary>
 <ul>
 With query languages like SQL for relational databases or XPath for XML we can just define the query and get the data.
@@ -91,7 +91,7 @@ should be used.
 <details>
 <summary><b>Logic-based Rules</b> - Using logic-based rules and facts to reason about knowledge.</summary>
 <ul>
-Logic-based programming use declaratice constraints in languages like Prolog and Datalog.
+Logic-based programming uses declarative constraints in languages like Prolog and Datalog.
 </ul>
 </details>
 
@@ -111,7 +111,7 @@ result is evaluated only when needed. In other words, nothing happens until the 
 </details>
 \
 Declarative Programming differs from Imperative on the idea standing behind it, which implies a different approach and
-rules that define it. It also has its own ups and downsides and - as usual - its usage depends strongly on the context
+rules that define it. It also has its ups and downsides and - as usual - its usage depends strongly on the context
 (more on that topic later on).
 
 
@@ -180,7 +180,7 @@ In this snippet:
 
 - The `Customers` table has a primary key (`customer_id`) to uniquely identify each record. It also includes fields
 like `name` and `email`.
-- The `Orders` table has its own primary key (`order_id`). Additionally, it has a `customer_id` field, which is a
+- The `Orders` table as well has a primary key (`order_id`). Additionally, it has a `customer_id` field, which is a
 foreign key pointing back to `Customers`. This foreign key establishes a link between the two tables.
 
 With these definitions, the structure of the database and the relationships between the tables are explicitly declared.
@@ -383,7 +383,7 @@ on events or user input.
 #### Conclusion
 Combining declarative and imperative programming creates dynamic and interactive web applications. HTML and CSS provide
 the static structure and styling, while JavaScript introduces interactivity and dynamic content. This combination is
-common in modern web development, where static elements are styled and then enhanced with dynamic behavior through
+common in modern web development, where static elements are styled and enhanced with dynamic behavior through
 JavaScript. Understanding how these languages work together is crucial for building engaging and user-friendly web
 applications.
 
@@ -391,7 +391,7 @@ applications.
 
 The last example is the declarative approach based on regex, a regular expression. This will be something completely
 different, but we warn you that it is worth knowing this tool. Regular expressions (regex) are a powerful tool for
-pattern matching in strings. Although regex can seem complex, they provide a declarative way to define constraints
+pattern matching in strings. Although regex can seem complex, it provides a declarative way to define constraints
 and extract specific information from text. Let's take a closer look at regex through an example that matches email
 addresses ([you can try it out here!](https://www.jdoodle.com/ia/JX3)):
 
@@ -458,7 +458,7 @@ By combining these sections, the regex pattern matches the structure of an email
 ensuring it conforms to the expected format.
 
 #### Conclusion
-Regular expressions are a form of declarative programming, allowing you to define constraints and patterns for text
+Regular expressions are a form of declarative programming, that allows you to define constraints and patterns for text
 matching. Although regex may seem complex due to its various symbols and patterns, understanding how each component
 works helps demystify the process. By using regex, you can extract specific data from strings and validate input based
 on predefined patterns.
@@ -520,7 +520,7 @@ making it easier to manage complex deployments and provisioning of systems autom
 <details>
 <summary><b>Functional Programming</b> - Evaluating mathematical functions and avoiding mutable state and side effects.</summary>
 <ul>
-Very useful approach to solve problems related to concurrency, parallelism, mathematical computations, and processing of
+Very useful approach to solving problems related to concurrency, parallelism, mathematical computations, and processing of
 large datasets.
 </ul>
 </details>
@@ -529,14 +529,14 @@ large datasets.
 <summary><b>Parsing and Pattern Matching</b> - Declaring patterns to parse and match within data.</summary>
 <ul>
 Developers specify patterns or grammars to match or extract specific patterns from input data, simplifying the
-implementation of parsers or pattern matching algorithms.
+implementation of parsers or pattern-matching algorithms.
 </ul>
 </details> 
 
 <details>
 <summary><b>Language Processing</b> - Declarative programming is used in natural language processing and generation.</summary>
 <ul>
-Used in language processing tasks, developers define grammar or semantic rules, kind of a templates, to analyze and
+Used in language processing tasks, developers define grammar or semantic rules, kind of templates, to analyze and
 manipulate text, including code.
 </ul>
 </details>
@@ -574,22 +574,21 @@ on this and see what are the pros & cons for both styles.
 ### Pros & Cons
 
 Understanding the pros and cons of each programming paradigm is crucial for understanding their implications. That
-brings a several important points:
+brings several important points:
 
-| Imperative | Declarative  |
-|:------------|:------------|
-| <span style="color:blue">*Control flow & Data Flow*</span> |
-| More flexible in handling state changes and program flow. <br> Becomes necessary when fine-grained control over execution <br> and data flow is required, especially if certain behaviors need <br> to be changed dynamically.  | Is favored when the goal is to abstract away from <br> the system, allowing the system to control things <br> without needing explicit instructions. But in the <br> same time offers less fine-grained control over <br> program flow and data manipulation. |
-| <span style="color:blue">*Mutable State & Concurrency*</span> |
-| All or most of the control stays on the developer’s side. <br> But be careful, managing mutable state can lead to <br> <a href="https://en.wikipedia.org/wiki/Race_condition#In_software">race conditions</a>. | Easier to implement parallelism due to minimized <br> mutable state. But this requires potentially more <br> complex logic. Also, concurrent operations may <br> use more system resources. |
-| <span style="color:blue">*Readability and Maintainability*\*</span> |
-| Can be less concise and expressive, leading to code that's <br> harder to understand and maintain - code can become <br> "spaghetti code"🍝 if not well-structured. | Emphasizes specifying data and its structure, <br> leading to clearer and more understandable code, <br> but on the other hand, it may suffer from <br> complexity in large files.  |
-| <span style="color:blue">*Error handling*</span> |
-| Allows for more fine-grained error handling, which can be <br> advantageous in meeting specific business requirements. <br> In the same time, requires explicit error handling, adding <br> potential complexity. | Errors often handled by the system, so may <br> lack control over error handling, leading to <br> less meaningful error messages or notifications.  |
+| Imperative                                                                                                                                                                                                                     | Declarative                                                                                                                                                                                                                                                   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span style="color:blue">*Control flow & Data Flow*</span>                                                                                                                                                                     |
+| More flexible in handling state changes and program flow. <br> Becomes necessary when fine-grained control over execution <br> and data flow is required, especially if certain behaviors need <br> to be changed dynamically. | Is favored when the goal is to abstract away from <br> the system, allowing the system to control things <br> without needing explicit instructions. But in the <br> same time offers less fine-grained control over <br> program flow and data manipulation. |
+| <span style="color:blue">*Mutable State & Concurrency*</span>                                                                                                                                                                  |
+| All or most of the control stays on the developer’s side. <br> But be careful, managing mutable state can lead to <br> <a href="https://en.wikipedia.org/wiki/Race_condition#In_software">race conditions</a>.                 | Easier to implement parallelism due to the minimized <br> mutable state. But this requires potentially more <br> complex logic. Also, concurrent operations may <br> use more system resources.                                                               |
+| <span style="color:blue">*Readability and Maintainability*\*</span>                                                                                                                                                            |
+| Can be less concise and expressive, leading to code that's <br> harder to understand and maintain - code can become <br> "spaghetti code"🍝 if not well-structured.                                                            | Emphasizes specifying data and its structure, <br> leading to clearer and more understandable code, <br> but on the other hand, it may suffer from <br> complexity in large files.                                                                            |
+| <span style="color:blue">*Error handling*</span>                                                                                                                                                                               |
+| Allows for more fine-grained error handling, which can be <br> advantageous in meeting specific business requirements. <br> At the same time, it requires explicit error handling, adding <br> potential complexity.           | Errors are often handled by the system, so it may <br> lack control over error handling, leading to <br> less meaningful error messages or notifications.                                                                                                     |
 
-> \* Both imperative and declarative programs can be easily readable or incomprehensible. It all depends on how they are
-implemented, and this depends on various factors such as the team's experience and the size and complexity of the
-codebase. 
+> Both imperative and declarative programs can be easily readable or incomprehensible. It all depends on how they are 
+implemented, and various factors such as the team’s experience and the size and complexity of the codebase.
 {: .prompt-info }
 
 Additionally, some key points worth noticing and which did not suit the above table are:
@@ -602,7 +601,7 @@ Additionally, some key points worth noticing and which did not suit the above ta
 ##### Declarative
 
 * <span style="color:blue">*Abstraction*</span>: Provides high-level structured abstractions, often with domain-specific languages, making code more concise and expressive.
-* <span style="color:blue">*Complexity*</span>: Can be challenging to navigate complex examples, especially in large codebases.
+* <span style="color:blue">*Complexity*</span>: It can be challenging to navigate complex examples, especially in large codebases.
 
 ### Quick summary
 
@@ -616,10 +615,10 @@ offers its own set of advantages and challenges, and the appropriate choice will
 
 Do you prefer to see a live discussion on the topic? No problem! Check out this online discussion on YouTube:
 
-{% include embed/youtube.html id='_frrUebkd4c' %}
+{% include embed/youtube.html id='1Jos3ae300o' %}
 
 ## Stay tuned!
 
-That's not all folks - our paradigms adventure still continues! In the next parts, we'll delve into some noteworthy and
+That's not all folks - our paradigms adventure continues! In the next parts, we'll delve into some noteworthy and
 popular flavors of programming styles, starting with the next topic which is OOP - Object Oriented Programming. Stay
 tuned!
