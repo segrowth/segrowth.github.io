@@ -1,7 +1,7 @@
 ---
 title: Declarative Programming
 authors: [imyrta, kjodlows]
-date: 2024-04-10 22:00:00 +0100
+date: 2024-05-12 22:00:00 +0100
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Declarative Programming]
 image:
