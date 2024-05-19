@@ -328,8 +328,8 @@ const enabled = {};
 const autoLoaderOptions = _extends$1({
   baseJs: [`d3@${"7.8.5"}.js`, `markmap-lib@${"0.15"}.js`, `markmap-view@${"0.15"}.js`, `markmap-toolbar@${"0.15"}.js`],
   baseCss: [`css/style.css`],
-  manual: false,
-  toolbar: false
+  manual: true,
+  toolbar: true
 }, (_window$markmap = window.markmap) == null ? void 0 : _window$markmap.autoLoader);
 async function initialize() {
   await Promise.all([loadJS(autoLoaderOptions.baseJs.map(item => typeof item === 'string' ? buildJSItem(urlBuilder.getFullUrl(item)) : item)), loadCSS(autoLoaderOptions.baseCss.map(item => typeof item === 'string' ? buildCSSItem(urlBuilder.getFullUrl(item)) : item))]);
@@ -388,8 +388,8 @@ function render(el) {
     } = Toolbar.create(mm);
     Object.assign(toolbar.style, {
       position: 'absolute',
-      right: '20px',
-      bottom: '20px'
+      right: '0.5rem',
+      top: '0.5rem'
     });
     el.append(toolbar);
   }

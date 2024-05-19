@@ -223,7 +223,7 @@ class Toolbar {
     });
   }
   constructor() {
-    this.showBrand = true;
+    this.showBrand = false;
     this.registry = {};
     this.el = mountDom(jsx("div", {
       className: "mm-toolbar"
@@ -300,7 +300,7 @@ class Toolbar {
     return this.el;
   }
 }
-Toolbar.defaultItems = ['zoomIn', 'zoomOut', 'fit', 'recurse'];
+Toolbar.defaultItems = ['zoomIn', 'zoomOut', 'fit'];
 
 exports.Toolbar = Toolbar;
 
