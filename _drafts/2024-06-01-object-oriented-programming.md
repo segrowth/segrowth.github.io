@@ -55,8 +55,8 @@ This establishes a relationship, in which we have base classes, commonly known a
 <summary><b>Polymorphism</b> - When objects of different classes are treated as if they are objects of a common 
 superclass.</summary>
 <ul>
-This allows the objects to take a variety of forms. This can be achieved by methods such as <b>overriding</b> or 
-<b>overloading</b>. 
+This allows the objects to take a variety of forms. This can be achieved by methods such as <b>overriding</b> (runtime
+polymorphism) or <b>overloading</b> (compile time polymorphism)). 
 </ul>
 </details>
 
@@ -240,8 +240,8 @@ ready for use within your program.
 
 Inheritance enables classes to build upon existing code, promoting code reusability and reducing redundancy. The 
 <i>extends</i> keyword is pivotal, enabling subclasses to access and extend the functionalities of their superclasses,
-provided the <b>access levels</b> (<i>protected</i> or <i>public</i>) allow it. This hierarchy not only streamlines the
-development process but also enhances the logical grouping and scalability of applications.
+provided the <b>access levels</b> <i>protected</i> or <i>public</i>. This hierarchy not only streamlines the development
+process but also enhances the logical grouping and scalability of applications.
 
 #### Polymorphism
 
@@ -281,8 +281,8 @@ public class Rectangle implements Shape {
 }
 ```
 
-The `Shape` <b>interface</b> defines a method `calculateArea()`, that must be implemented by any class that commits to
-the interface:
+The `Shape` <b>interface</b> defines a method `calculateArea()`, that must be implemented by any class that implements
+that interface:
 ```java
 public interface Shape {
     double calculateArea();
@@ -348,13 +348,14 @@ public class Rectangle implements Shape {
 }
 ```
 
-> A <b>constructor</b> is a special method designed to create an object. It initializes the new object, typically
-taking arguments that help set essential member variables for immediate use. 
+> A <b>constructor</b> is a special method designed to create an object, named the same way as the class. It initializes
+the new object, typically taking arguments that help set essential member variables for immediate use. 
 {: .prompt-info }
 
-The constructors not only define how objects are instantiated but also encapsulate the necessary parameters. Both 
-classes encapsulate their respective dimensions (`radius`, `length`, and `width`) by making them <i>private</i>,
-thereby restricting direct access from outside the class:
+The constructors not only define how objects are instantiated but also - by letting the parameters be passed only when
+the object is initialized - to encapsulate the necessary parameters. Both classes encapsulate their respective
+dimensions (`radius`, `length`, and `width`) by making them <i>private</i>, thereby restricting direct access from
+outside the class:
 ```java
 public class Circle implements Shape {
     private double radius;
@@ -501,14 +502,14 @@ domain that depends on objects.
 </details>
 
 <details>
-<summary><b>Software Developmen</b> - OOP provides a structured approach to software development.</summary>
+<summary><b>Software Development</b> - OOP provides a structured approach to software development.</summary>
 It allows for modularity and reusable code and facilitates the organization and management of large codebases. It also
 promotes maintainability, extensibility, and code reusability, which is why it's very common and one of the most popular
-styles used out there (in about 80 to 90 percent of companies, OOP is used to solve problems).
+styles used out there (in about 80-90% of companies, OOP is used to solve problems).
 </details>
 
 <details>
-<summary><b>Graphical User Interfaces (GUIs)</b> - Objects represent visual components like windows, buttons, menus..</summary>
+<summary><b>Graphical User Interfaces (GUIs)</b> - Objects represent visual components like windows, buttons, menus.</summary>
 OOP allows for the encapsulation of the behavior and the state of these components while handling user interactions. For
 example, when a button is clicked, we can close a window, or we can have a dropdown menu, and then we can pick one of
 the items from the menu, and another window can pop up.
@@ -533,7 +534,7 @@ for example a user ordering a product or a user looking at an article.
 <summary><b>Software Design Patterns</b> - Ability to solve problems with already-crafted solutions.</summary>
 Object-oriented programming is closely associated with design patterns because it provides solutions to common design
 problems. We strongly recommend visiting <a href="https://refactoring.guru/design-patterns">this website</a> to get
-familiar with this important topic.
+familiar with this important topic (also, we'll certainly take a closer look at them in the future;).
 </details>
 
 
@@ -569,5 +570,5 @@ Want to see a live discussion on the topic? Check out our YouTube recording:
 
 Guess what - we're not done yet with all we have for Programming Paradigms! We have already traveled through the most
 general division which is Imperative and Declarative style and met the most famous Imperative style which is OOP. Next
-time we'll talk about an important Declarative style representative, which is Structured Query Language (SQL). Stay
-tuned!
+time we’ll discuss an important Declarative style representative: Structured Query Language (SQL). We'll also make
+a quick summary of the Programming Paradigms topic.
