@@ -29,10 +29,13 @@ description: >- # used by seo meta and the atom feed
 url: "https://www.seg.dev/"
 
 github:
-  username: github_username # change to your github username
+  username: segrowth
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: S_E_Growth
+
+youtube:
+  username: Software-Engineering-Growth
 
 social:
   # Change to your full name.

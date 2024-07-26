@@ -6,6 +6,9 @@
 - type: twitter
   icon: "fab fa-twitter"
 
+- type: youtube
+  icon: "fab fa-youtube"
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
