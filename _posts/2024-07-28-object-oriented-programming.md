@@ -1,7 +1,7 @@
 ---
 title: Object-Oriented Programming
 authors: [imyrta, kjodlows]
-date: 2024-07-28 23:30:00 +0200
+date: 2024-07-28 00:00:00 +0200
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Object-Oriented Programming]
 image:
