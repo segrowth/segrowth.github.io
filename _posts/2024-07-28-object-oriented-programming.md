@@ -1,7 +1,7 @@
 ---
 title: Object-Oriented Programming
 authors: [imyrta, kjodlows]
-date: 2024-06-01 00:00:00 +0200
+date: 2024-07-28 23:30:00 +0200
 categories: [Software Engineering, Junior]
 tags: [Technical Skills, Programming Paradigms, Object-Oriented Programming]
 image:
@@ -152,11 +152,13 @@ encapsulation, ensuring that the internal state of an object is shielded from di
 Interaction with the `radius` is mediated through <i>public</i> <b>getter</b> and <b>setter</b> methods:
 ```java
     public double getRadius() {
-    ...
+        return radius;
     }
 
     public void setRadius(double radius) {
-    ...
+        if (radius > 0) {
+            this.radius = radius;
+        }
     }
 ```
 The getter method, `getRadius`, allows external entities to access the value of the `radius`. Being public, it
@@ -225,7 +227,7 @@ public class Car extends Vehicle {
 ```
 
 It inherits the `drive()` method from its superclass and adds its own attributes and methods, such as the <i>private</i> `numberOfDoors` and the <i>public</i> method `honk()`. The honk method, when called, outputs a specific message, 
-demonstrating how subclasses can extend the functionality of their base classes.
+demonstrating how subclasses can have different functionalities from their base classes.
 
 When a `Car` object is <b>instantiated</b>, it inherits both the behavior of the superclass (`drive()`) and integrates
 its unique behavior (`honk()`). This ability to incorporate and extend superclass behavior is fundamental to
@@ -564,7 +566,7 @@ broad applicability explains its popularity.
 
 Want to see a live discussion on the topic? Check out our YouTube recording:
 
-{% include embed/youtube.html id='1Jos3ae300o' %}
+{% include embed/youtube.html id='v7k9LVEdWJA' %}
 
 ## Stay tuned!
 
