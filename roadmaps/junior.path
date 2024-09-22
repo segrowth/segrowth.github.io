@@ -9,7 +9,8 @@ markmap:
 - [Programming Paradigms](/posts/imperative-programming/#programming-paradigms)
   - [Imperative](/posts/imperative-programming/#imperative-programming)
   - [Declarative](/posts/declarative-programming/#declarative-programming)
-  - Object Oriented
+  - [Object Oriented](/posts/object-oriented-programming)
+  - [SQL](/posts/sql)
 
 - Data Structure and Algorithms
   - Arrays
